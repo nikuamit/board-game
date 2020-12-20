@@ -1,11 +1,11 @@
-# board-game
+# Board-Game
 
 Solution validator for a board game similar to Sudoko
 -----------------------------------------------------
 
 The task is to validate a given solution of the puzzle. This solution has been designed using object oriented principles in Python.
 
-Given a board of NxN where row and column will be filled by numbers between 1 and n. 
+Given a board of NxN size, where row and column will be filled by numbers between 1 and n. 
 Each number can appear once and only once in each row and each column. Using a 2D list this puzzle has been solved.
 
 
@@ -20,5 +20,8 @@ adjacent_cells() - Function to check if the elements are adjacent to each other 
 validate_solution() - Function to validate the board.
 
 
+Instructions below to test the program:
+
 Script Name : udacity_board_game_solution_validator.py
+
 Execution command : python3 udacity_board_game_solution_validator.py
