@@ -5,10 +5,6 @@
 # Execution command : python3 udacity_board_game_solution_validator.py
 
 
-# Board has 2 components one the size of the board and the constraints for e.g.
-# (row/column length,[(greater element position1,smaller element position1),(greater element position2,smaller element position2) ...])
-
-
 # Function to check dimension of the board as it should be NxN
 def dimension_check(solution) -> bool:
     n_rows = len(solution)
